@@ -46,8 +46,7 @@ header h2 {
 
 .teamphoto_item:nth-child(2),
 .teamphoto_item:nth-child(5) {
-  position: relative;
-  top: 80px;
+  margin-top: 80px;
 }
 
 .img_wrapper {
@@ -117,11 +116,10 @@ header h2 {
     grid-row-gap: 90px;
   }
   .teamphoto_item:nth-child(5) {
-    top: 0;
+    margin-top: 0;
   }
   .teamphoto_item:nth-child(2n) {
-    position: relative;
-    top: 80px;
+    margin-top: 80px;
   }
   .img_wrapper img {
     /* width: 177px;
