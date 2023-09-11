@@ -1,0 +1,134 @@
+body {
+  margin: 0 auto;
+  width: 80%;
+}
+header {
+  margin-top: 110px;
+  display: flex;
+  color: #000;
+  margin-bottom: 80px;
+  column-gap: 20%;
+}
+header h2 {
+  max-width: 300px;
+  font-family: PT Serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.62px;
+  margin-right: 215px;
+}
+.brief_tit {
+  margin-bottom: 10px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.brief_desc {
+  max-width: 439px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.teamphoto_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 58px;
+  grid-row-gap: 120px;
+}
+
+.teamphoto_item:nth-child(2),
+.teamphoto_item:nth-child(5) {
+  position: relative;
+  top: 80px;
+}
+
+.img_wrapper {
+  display: flex;
+}
+.img_wrapper img {
+  width: 100%;
+  max-width: 300px;
+}
+.teamphoto_tit {
+  margin-top: 15px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.side {
+  writing-mode: vertical-lr;
+  margin-left: 10px;
+  color: #000;
+  font-family: PT Serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.footer {
+  margin-top: 100px;
+  padding-bottom: 24px;
+  color: #bdbdbd;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: default;
+}
+.footer a {
+  color: #bdbdbd;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    width: 90%;
+  }
+  header {
+    display: block;
+    margin-top: 71px;
+    margin-bottom: 38px;
+  }
+  header h2 {
+    margin-right: 0px;
+  }
+
+  .brief {
+    margin-top: 38px;
+  }
+  .teamphoto_container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 60px;
+    grid-row-gap: 90px;
+  }
+  .teamphoto_item:nth-child(5) {
+    top: 0;
+  }
+  .teamphoto_item:nth-child(2n) {
+    position: relative;
+    top: 80px;
+  }
+  .img_wrapper img {
+    /* width: 177px;
+    height: 283px; */
+    width: 100%;
+  }
+  .side {
+    margin-left: 6px;
+  }
+}
