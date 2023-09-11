@@ -36,8 +36,8 @@
 
 ## Overview
 
-![web](https://github.com/AuroraSmile/404-Not-Found/blob/main/images/web.png)
-![moblie](https://github.com/AuroraSmile/404-Not-Found/blob/main/images/moblie.png)
+![web](https://github.com/AuroraSmile/404-Not-Found/blob/main/screenshots/web.png)
+![moblie](https://github.com/AuroraSmile/404-Not-Found/blob/main/screenshots/moblie.png)
 
 ### Built With
 
